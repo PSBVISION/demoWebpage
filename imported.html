@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: transparent;
+        font-family: sans-serif;
+      }
+      .page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        /* background-color: #24212170; */
+      }
+      h1 {
+        font-size: 50px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+      }
+      .cont {
+        width: 350px;
+        background-color: #000000f3;
+        height: 450px;
+        padding: 20px;
+        border-radius: 25px;
+      }
+      p {
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin-bottom: 45px;
+        text-align: center;
+        color: white;
+      }
+      input {
+        background: #0000007d;
+        border: none;
+        border-bottom: 2px solid #aeadad;
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        width: 260px;
+        padding: 5px 10px;
+        color: white;
+      }
+      .for {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+      }
+      button {
+        margin: 25px 5px;
+        height: 50px;
+        width: 290px;
+        background-color: #e7c138;
+        border: 5px inset #c4a01f;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .sign {
+        color: aqua;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 52px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="cont">
+        <h1>LogIn Here</h1>
+        <p>Hy, Enter your details to get LogIn to your account</p>
+        <form>
+          <input type="text" placeholder="Username/E-mail ID" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <a href="#" class="for">Having trouble in LogIn?</a><br />
+          <button>LogIn</button>
+        </form>
+        <a href="signup.html" class="sign">Don't have a account?</a>
+      </div>
+    </div>
+  </body>
+</html>

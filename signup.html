@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN UP</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: #ffffff;
+        /* background-color: black; */
+      }
+      .content {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #24212170;
+      }
+      h1 {
+        font-size: 60px;
+        font-family: sans-serif;
+        font-weight: 600;
+        margin-bottom: 30px;
+      }
+      span {
+        font-size: 80px;
+      }
+      input {
+        background: #0000007d;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #aeadad;
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      label {
+        color: rgb(187, 160, 160);
+        margin-right: 20px;
+        font-family: sans-serif;
+      }
+      button {
+        width: 100px;
+        margin-left: 45px;
+        padding: 5px 10px;
+        background-color: #e7c138;
+        border: 4px inset #c4a01f;
+        color: black;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      h2{
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 15px;
+      }
+      a{
+        text-decoration: none;
+        font-weight: 100;
+        font-family: sans-serif;
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="reg">
+        <h1><span>S</span>IGN UP</h1>
+        <form action="#">
+          <input type="text" placeholder="Username" /><br />
+          <input type="email" placeholder="E-mail" /><br />
+          <label>Gender</label>
+          <input type="radio" id="ma" name="gender" /><label
+            for="ma"
+            style="margin-left: 10px"
+            >Male</label
+          >
+          <input type="radio" id="fe" name="gender" /><label
+            for="fe"
+            style="margin-left: 10px"
+            >Female</label
+          ><br />
+          <input type="number" placeholder="Contact Number" /><br />
+          <input type="password" placeholder="Password" /><br />
+          <input type="text" placeholder="Confirm Password" /><br />
+          <button>Sign Up</button>
+        </form>
+        <h2>Already have an account?</h2><br>
+        <a href="login.html">Login here</a>
+      </div>
+    </div>
+  </body>
+</html>
